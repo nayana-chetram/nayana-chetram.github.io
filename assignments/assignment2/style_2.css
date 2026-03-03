@@ -1,1 +1,107 @@
+/* Remove the “mystery space” */
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f5f6f8;
+  color: #222;
+}
+
+.container {
+  max-width: 980px;
+  margin: 18px auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  margin-bottom: 12px;
+}
+
+.page-title {
+  margin: 0;               /* fixes space above the name */
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.subtitle {
+  margin: 6px 0 0 0;
+  color: #444;
+}
+
+.subtitle a {
+  color: inherit;
+}
+
+.section-box {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 14px 0;
+}
+
+/* Fix “space above heading” inside boxes */
+.section-box h2 {
+  margin: 0 0 10px 0;
+  color: #1f5b1f;
+  border-bottom: 3px solid #cfcfcf;
+  padding-bottom: 8px;
+}
+
+.section-box h3 {
+  margin: 14px 0 6px 0;
+}
+
+.meta {
+  margin: 0 0 10px 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Image-left / text-right wrap that lines up neatly */
+.about-flex {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.headshot {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Keep paragraphs tight and readable */
+p {
+  margin: 0 0 10px 0;
+}
+
+ul {
+  margin: 0 0 12px 18px;
+}
+
+.role {
+  margin-bottom: 16px;
+}
+
+.page-footer {
+  color: #6b7280;
+  font-size: 13px;
+  margin: 18px 0 30px 0;
+}
+
+/* Mobile friendly */
+@media (max-width: 700px) {
+  .about-flex {
+    flex-direction: column;
+  }
+
+  .headshot {
+    width: 180px;
+  }
+}
