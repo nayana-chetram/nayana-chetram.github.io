@@ -1,1 +1,46 @@
+/* Required: body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+  padding: 20px;
+}
 
+/* Required: h1 styling */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Required: h2 styling */
+h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Required: paragraph styling */
+p {
+  margin: 10px 0;
+}
+
+/* Required: link styling */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Required reusable class */
+.section-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
