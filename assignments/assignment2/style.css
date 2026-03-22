@@ -46,7 +46,6 @@ body {
   padding-bottom: 8px;
 }
 
-/* Parent/child layering example */
 .image-wrapper {
   position: relative;
   width: 220px;
@@ -79,8 +78,14 @@ body {
   flex-wrap: wrap;
 }
 
-.hero-text p {
-  line-height: 1.5;
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.full-text {
+  flex: 0 0 100%;   /* THIS is the real fix */
+  margin-top: 10px;
 }
 
 a {
@@ -99,10 +104,4 @@ a {
   .page {
     padding-top: 90px;
   }
-}
-
-.full-text {
-  flex-basis: 100%;
-  width: 100%;
-  margin-top: 10px;
 }
