@@ -98,6 +98,36 @@ a {
     flex-direction: column;
   }
 
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 16px auto;
+  }
+
+  .headshot {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .image-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .hero-text,
+  .full-text {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .hero-text p,
+  .full-text p {
+    width: 100%;
+  }
+
   .fixed-header h1 {
     font-size: 28px;
   }
