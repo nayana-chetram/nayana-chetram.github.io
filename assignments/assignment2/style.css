@@ -107,33 +107,3 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  .hero-box {
-    display: block;
-  }
-
-  .image-wrapper {
-    width: 100%;
-    margin-bottom: 16px;
-  }
-
-  .headshot {
-    width: 100%;
-    max-width: 260px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .image-label {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10px;
-    white-space: nowrap;
-  }
-
-  .hero-text,
-  .full-text {
-    width: 100%;
-  }
-}
