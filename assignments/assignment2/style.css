@@ -95,7 +95,7 @@ a {
 
 @media (max-width: 700px) {
   .hero-box {
-    flex-direction: column;
+    display: block !important;
   }
 
   .image-wrapper {
@@ -106,7 +106,7 @@ a {
   }
 
   .headshot {
-    width: 100%;
+    width: 100% !important;
     height: auto;
     display: block;
   }
@@ -119,13 +119,13 @@ a {
 
   .hero-text,
   .full-text {
-    width: 100%;
-    min-width: 0;
+    display: block;
+    width: 100% !important;
+    margin: 0;
   }
 
-  .hero-text p,
-  .full-text p {
-    width: 100%;
+  .hero-text h2 {
+    margin-top: 0;
   }
 
   .fixed-header h1 {
@@ -136,4 +136,3 @@ a {
     padding-top: 90px;
   }
 }
-
