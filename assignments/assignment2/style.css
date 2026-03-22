@@ -72,19 +72,21 @@ body {
 }
 
 .hero-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: 220px 1fr;
   gap: 24px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  grid-row: span 2;  /* image stays tall */
 }
 
 .hero-text {
-  flex: 1;
-  min-width: 300px;
+  grid-column: 2;
 }
 
 .full-text {
-  flex: 0 0 100%;   /* THIS is the real fix */
+  grid-column: 1 / -1;  /* THIS is the magic */
   margin-top: 10px;
 }
 
