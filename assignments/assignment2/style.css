@@ -93,7 +93,7 @@ a {
   color: #2563eb;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .hero-box {
     display: block !important;
   }
@@ -119,8 +119,8 @@ a {
 
   .hero-text,
   .full-text {
-    display: block;
     width: 100% !important;
+    min-width: 0 !important;
     margin: 0;
   }
 
@@ -128,11 +128,11 @@ a {
     margin-top: 0;
   }
 
-  .fixed-header h1 {
-    font-size: 28px;
-  }
-
   .page {
     padding-top: 90px;
+  }
+
+  .fixed-header h1 {
+    font-size: 28px;
   }
 }
