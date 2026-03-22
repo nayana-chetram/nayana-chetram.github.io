@@ -1,0 +1,30 @@
+p {
+color: red;
+}
+
+.highlight {
+color: pink;
+}
+
+#special {
+color: black;
+}
+
+/* Stage 1: override the internal p rule for paragraph 1 */
+body p {
+color: gray;
+}
+
+/* Stage 2: make paragraph 2 blue without affecting paragraph 3 */
+p.highlight {
+color: blue;
+}
+
+/* Stage 3: same specificity as p.highlight, later rule wins */
+.highlight {
+color: green;
+}
+
+p.highlight {
+color: green;
+}
