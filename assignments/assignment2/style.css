@@ -87,7 +87,7 @@ body {
 
 .full-text {
   grid-column: 1 / -1;  /* THIS is the magic */
-  margin-top: 8px;
+  margin-top: 0;
 }
 
 a {
