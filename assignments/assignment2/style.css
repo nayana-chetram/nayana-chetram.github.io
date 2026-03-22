@@ -101,3 +101,8 @@ a {
     padding-top: 90px;
   }
 }
+
+.full-text {
+  width: 100%;
+  margin-top: 10px;
+}
