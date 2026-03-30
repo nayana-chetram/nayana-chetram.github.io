@@ -8,17 +8,18 @@ body {
 
 header {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #7faed6;
   border-bottom: 1px solid #d1d5db;
 }
 
 h1 {
   margin: 0 0 10px 0;
+  color: #111827;
 }
 
 h2 {
   margin-top: 0;
-  color: #1f5a1a;
+  color: #7faed6;
 }
 
 nav {
@@ -29,7 +30,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #1d4ed8;
+  color: #111827;
 }
 
 main {
