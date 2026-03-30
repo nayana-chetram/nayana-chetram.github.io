@@ -63,6 +63,8 @@ main {
   width: 180px;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
 .work-image {
