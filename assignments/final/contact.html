@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayana Chetram | Contact</title>
+  <link rel="stylesheet" href="style.css">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TGYMZKHM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K0TGYMZKHM');
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Nayana Chetram</h1>
+
+    <nav>
+      <a href="index.html" onclick="gtag('event', 'nav_click', {'link_name': 'Home'});">Home</a>
+      <a href="about.html" onclick="gtag('event', 'nav_click', {'link_name': 'About'});">About</a>
+      <a href="work.html" onclick="gtag('event', 'nav_click', {'link_name': 'Work'});">Work</a>
+      <a href="resume.html" onclick="gtag('event', 'nav_click', {'link_name': 'Resume'});">Resume</a>
+      <a href="contact.html" onclick="gtag('event', 'nav_click', {'link_name': 'Contact'});">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-box">
+      <h2>Contact</h2>
+
+      <p>Email: <a href="mailto:nayana@chetram.biz">nayana@chetram.biz</a></p>
+
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/nayana-chetram" target="_blank"
+           onclick="gtag('event', 'linkedin_click', {'link_name': 'LinkedIn Profile'});">
+          linkedin.com/in/nayana-chetram
+        </a>
+      </p>
+
+      <p>Location: New York, NY</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nayana Chetram</p>
+  </footer>
+</body>
+</html>
