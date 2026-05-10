@@ -1,9 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Final</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayana Chetram | Home</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TGYMZKHM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K0TGYMZKHM');
+  </script>
 </head>
+
 <body>
-  <h1>Final Website</h1>
+  <header>
+    <h1>Nayana Chetram</h1>
+
+    <nav>
+      <a href="index.html" onclick="gtag('event', 'nav_click', {'link_name': 'Home'});">Home</a>
+      <a href="about.html" onclick="gtag('event', 'nav_click', {'link_name': 'About'});">About</a>
+      <a href="work.html" onclick="gtag('event', 'nav_click', {'link_name': 'Work'});">Work</a>
+      <a href="resume.html" onclick="gtag('event', 'nav_click', {'link_name': 'Resume'});">Resume</a>
+      <a href="contact.html" onclick="gtag('event', 'nav_click', {'link_name': 'Contact'});">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-box intro-flex">
+      <img src="images/IMG_7959.JPG" alt="Professional headshot of Nayana Chetram" class="profile-image">
+
+      <div>
+        <h2>Welcome</h2>
+        <p>
+          Welcome to my personal website. I am a Mathematics and Information Systems student at Hofstra University and a member of the Rabinowitz Honors College, with interests in data analytics, machine learning, artificial intelligence, and responsible technology.
+        </p>
+
+        <p>
+          This site introduces my academic background, technical skills, professional experience, projects, and leadership work.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-box">
+      <h2>Featured</h2>
+      <p>
+        Recently, I earned my AWS Certified Solutions Architect – Associate certification, scoring a 949 out of 1000, well above the 720 required to pass. The exam focuses on designing and deploying scalable, secure, and cost-efficient cloud systems, which strengthened my understanding of cloud architecture and real-world infrastructure.
+      </p>
+
+      <p>
+        This connects directly to my broader goal of becoming an AI Engineer, where I can build intelligent systems that combine data, cloud technologies, and machine learning to solve practical business problems.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nayana Chetram</p>
+  </footer>
 </body>
 </html>
