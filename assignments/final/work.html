@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayana Chetram | Work</title>
+  <link rel="stylesheet" href="style.css">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0TGYMZKHM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K0TGYMZKHM');
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Nayana Chetram</h1>
+
+    <nav>
+      <a href="index.html" onclick="gtag('event', 'nav_click', {'link_name': 'Home'});">Home</a>
+      <a href="about.html" onclick="gtag('event', 'nav_click', {'link_name': 'About'});">About</a>
+      <a href="work.html" onclick="gtag('event', 'nav_click', {'link_name': 'Work'});">Work</a>
+      <a href="resume.html" onclick="gtag('event', 'nav_click', {'link_name': 'Resume'});">Resume</a>
+      <a href="contact.html" onclick="gtag('event', 'nav_click', {'link_name': 'Contact'});">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-box work-flex">
+      <img src="images/IMG-20260328-WA0062.jpg" alt="Work and interests related image" class="work-image">
+
+      <div>
+        <h2>Work Experience</h2>
+
+        <p><strong>Hofstra AI Society</strong></p>
+        <p>
+          I founded Hofstra’s first student-led organization centered on analytics, artificial intelligence, and emerging technologies. I design and facilitate sessions that translate AI and data science concepts into accessible, hands-on learning experiences.
+        </p>
+
+        <p><strong>Hardline Capital</strong></p>
+        <p>
+          I serve as Treasurer and an Information Technology Sector Financial Analyst within a student-managed fund simulating $10 million in capital. I analyze financial and market datasets to evaluate risk-return profiles, performance trends, and investment opportunities.
+        </p>
+
+        <p><strong>Grant Management Services</strong></p>
+        <p>
+          As a Data Analytics Intern for Finance and Compliance Systems, I built and maintained structured financial datasets by organizing transaction-level data from multiple sources. I also performed data validation and reconciliation to support accurate reporting across ledger, bank, and compliance entries.
+        </p>
+
+        <p><strong>EisnerAmper</strong></p>
+        <p>
+          As a Real Estate Private Equity intern through Project Destined, I examined projected cash flows, valuation inputs, and market trends across multiple property types and contributed to a live deal pitch competition.
+        </p>
+
+        <p><strong>Extern x PwC</strong></p>
+        <p>
+          As a Strategy Consulting intern, I worked on projects focused on business transformation and growth strategy, including financial optimization plans and strategic recommendations.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-box">
+      <h2>Interest Filter</h2>
+      <p>
+        Use the dropdown below to filter my experiences by category. This JavaScript feature uses structured data, a switch statement, and DOM updates.
+      </p>
+
+      <label for="categoryFilter">Choose a category:</label>
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="ai">AI / Data</option>
+        <option value="finance">Finance</option>
+        <option value="consulting">Consulting</option>
+        <option value="leadership">Leadership</option>
+      </select>
+
+      <div id="results" class="results-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nayana Chetram</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
