@@ -1,4 +1,5 @@
 const items = [
+
   {
     title: "Hofstra AI Society",
     category: "leadership",
@@ -15,15 +16,15 @@ const items = [
 
   {
     title: "Hardline Capital",
-    category: "finance",
-    type: "Finance",
+    category: "ai",
+    type: "AI / Data",
     description: "Analyze financial and market datasets to evaluate risk-return profiles, performance trends, and investment opportunities."
   },
 
   {
     title: "Grant Management Services",
-    category: "finance",
-    type: "Finance",
+    category: "ai",
+    type: "AI / Data",
     description: "Built and maintained structured financial datasets and performed data validation and reconciliation across financial entries."
   },
 
@@ -47,9 +48,11 @@ const items = [
     type: "Leadership",
     description: "Placed first in Hofstra’s Cybersecurity Case Competition by applying structured analysis and systems-based thinking."
   }
+
 ];
 
 const categoryFilter = document.getElementById("categoryFilter");
+
 const results = document.getElementById("results");
 
 function getFilteredItems(selectedCategory) {
@@ -91,7 +94,9 @@ function renderItems(filteredItems) {
     `;
 
     results.appendChild(card);
+
   });
+
 }
 
 categoryFilter.addEventListener("change", function() {
